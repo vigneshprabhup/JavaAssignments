@@ -18,7 +18,7 @@ public class PascalTriangle {
 	    System.out.println(temp);
 	    for(int i=0;i<value;i++)
 	    {
-	    	temp=temp*11;
+	    	temp=temp*11;// condition does't work for the inputs greater than 4
 	    	System.out.println(temp);
 	    }
 		
